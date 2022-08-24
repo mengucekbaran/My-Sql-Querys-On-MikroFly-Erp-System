@@ -1,0 +1,14 @@
+select 
+dep.dep_no,
+dep.dep_adi,
+coalesce(sho_StokKodu,'BOŞ'), /*coalesce fonksiyonu eğer sho_StokKodu NULL ise NULL yerine BOŞ yazar */
+coalesce(sum(sho_GirisNormal-sho_CikisNormal),'0') as miktar 
+from STOK_HAREKETLERI_OZET sho 
+full outer join 
+DEPOLAR dep on sho.sho_Depo= dep.dep_no
+group by sho_StokKodu,
+dep.dep_no,
+dep.dep_adi
+order by 
+dep.dep_no,
+sho.sho_StokKodu

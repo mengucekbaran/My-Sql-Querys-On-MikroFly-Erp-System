@@ -1,0 +1,2 @@
+ sp_helptext CH_fn_DepodakiMiktar
+ select * from sys.objects where name like '%DEPOda%' 
