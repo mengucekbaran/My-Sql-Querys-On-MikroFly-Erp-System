@@ -1,0 +1,2 @@
+kısıtlı kullanım kopyası olduğu için mikrodan update edemiyorum bu yüzden sqlden cha_guide göre vadeleri update ettim
+kısıtlı kullanım kopyası olduğu için mikrodan update edemiyorum bu yüzden sqlden sck_guide göre cek numaralarını update ettim

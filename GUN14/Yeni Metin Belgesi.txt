@@ -1,0 +1,1 @@
+cengizhan bey ile birlikte ebru yılmaz adlı müşterinin bilgisayarına anydesk ile bağlanıp microserverdan mikro kurulumu yaptık

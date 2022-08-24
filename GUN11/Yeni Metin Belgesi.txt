@@ -1,0 +1,9 @@
+
+hammadde aldığım carileri daha önce tanımlamıştım fakat mamül satışı yaptığım cariler tanımlı değildi.
+Onların da tanımını yaptım
+
+
+
+
+Hammadde aldığım carilere ödeme yapmam ve mamül sattığım carilerden ödeme almam gerekiyordu. Ve sonrasında sqlde yazacağım sorgu ile carilerin döviz bakiyelerini getirmeliydim.
+Fakat bendeki mikro demo uygulaması olduğundan belli bir kayıttan sonra hata veriyor.Bende arkada SQL SERVER PROFİLERi açıp normal mikrodan kayıt yapıp hata alıp sonrasında profilerden sorguları çekip manuel tahsilat ve ödeme evrakları oluşturdum.
